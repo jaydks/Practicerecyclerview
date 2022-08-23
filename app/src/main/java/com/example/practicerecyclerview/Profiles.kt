@@ -1,3 +1,8 @@
 package com.example.practicerecyclerview
 
-class Profiles (val gender: Int, val name: String, val age: Int, val job: String)
+data class Profiles(
+    val gender: Int,
+    val name: String,
+    val age: Int,
+    val job: String
+)
